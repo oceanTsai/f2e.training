@@ -1,5 +1,9 @@
 # ArrayList
 
+Implement a class as described and write unit tests for all public methods.
+
+note: use Array Implement.
+
 **Demand**
 1. software Versioning scheme use  [semver](https://semver.org/) .
 2. build your project structure with [vite](https://vitejs.dev/guide/#scaffolding-your-first-vite-project).
@@ -20,17 +24,18 @@
 
 
  
-**project architecture **
+**project architecture**
 ```text
 indi
  |- base
  |   |- util
+ |       |- Collection.js or ICollection.ts
  |       |- ArrayList.js or ArrayList.ts
  |- test
 ```
 
 **Challenge project**
-1. typescript.
+1. [typescript](https://www.typescriptlang.org/).
 
 
 **Class diagram**
@@ -38,6 +43,7 @@ indi
 classDiagram
     class ArrayList
     ArrayList : +int length
+    ArrayList : +source Array
     ArrayList : +ArrayList(Array source = null)
     ArrayList : +addAll(ArrayList extends) void
     ArrayList : +addAllAt(ArrayList extends, int index) void
