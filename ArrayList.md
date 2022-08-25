@@ -1,5 +1,39 @@
 # ArrayList
 
+**Demand**
+1. software Versioning scheme use  [semver](https://semver.org/) .
+2. build your project structure with [vite](https://vitejs.dev/guide/#scaffolding-your-first-vite-project).
+
+3. unit test
+ > - use [jest](https://jestjs.io/).
+ > - test all public method of ArrayList.
+
+4. package Names reference 
+    > - [naming rules for java](https://developpaper.com/naming-rules-for-java-packages/)
+    > - [java Naming a Package](https://docs.oracle.com/javase/tutorial/java/package/namingpkgs.html)
+5. write README.md
+
+> > required item
+> > > - Environment 
+> > > - Getting Started
+> > > - Script
+
+
+ 
+**project architecture **
+```text
+indi
+ |- base
+ |   |- util
+ |       |- ArrayList.js or ArrayList.ts
+ |- test
+```
+
+**Challenge project**
+1. typescript.
+
+
+**Class diagram**
 ```mermaid
 classDiagram
     class ArrayList
@@ -19,8 +53,9 @@ classDiagram
     ArrayList : +clone() ArrayList
 ```
 
-**public method**
-| Method  |
+- - -
+
+| Public Method  |
 | ------------- |
 | **ArrayList(source: Array = null)** <br/> Construct a new ArrayList using the specified array as its source. |
 | **addAll(extends: ArrayList ): void**  <br/> Adds a list of items to the current list, placing them at the end of the list in the order they are passed.|
@@ -38,5 +73,6 @@ classDiagram
 
 
 
-**reference**
+**document tools reference**
+
 - [mermaid](https://mermaid-js.github.io/mermaid/#/classDiagram?id=configuration)
