@@ -7,26 +7,31 @@
 
 2. ArrayList (data structure)
 
-3. dice （random)
+3. LinkedList (data structure)
 
-4. triangle generator (OOP)
+4. dice （random)
 
-5. Tic-Tac-Toe (OOP、ES6、React Native)
+5. triangle generator (OOP)
 
-6. puzzle (OOP、Canvas、TS、Electron)
+6. Tic-Tac-Toe (OOP、ES6、React Native)
 
-7. calculator (electron)
+7. puzzle (OOP、Canvas、TS、Electron)
 
-8. bar chat、 pie chart  （svg）
+8. calculator (electron)
 
-9. video 、 audio player
+9. bar chat、 pie chart  （svg）
 
-10. webGL
+10. video 、 audio player
 
-11. [Galaxian](https://en.wikipedia.org/wiki/Galaxian)
+11. webGL
+
+12. [Galaxian](https://en.wikipedia.org/wiki/Galaxian)
  - [pixijs](https://github.com/pixijs/pixijs)
  - socket.io or mqtt
  - [mqtt](https://test.mosquitto.org/)
  - [mqtt.js](https://www.npmjs.com/package/mqtt)
 
-12. web site
+13. web site
+ - next or nuxt
+
+14. facebook、line、google map、fire base  api.
