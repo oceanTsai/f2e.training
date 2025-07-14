@@ -1,9 +1,9 @@
 # 分批載入用戶資料的 ID 產生器（User Batch ID Iterator）
 
 
-**背景說明**
+📌 **背景說明**
 
-📌 你正在開發一個後台管理系統，用於處理大量用戶資料。由於資料量龐大，API 設計成分批（batch）查詢用戶 ID，每次請求都需要一組用戶 ID，例如：
+你正在開發一個後台管理系統，用於處理大量用戶資料。由於資料量龐大，API 設計成分批（batch）查詢用戶 ID，每次請求都需要一組用戶 ID，例如：
 
 ```text
 GET /api/users?ids=1000,1002,1004
@@ -13,9 +13,9 @@ GET /api/users?ids=1000,1002,1004
 
 
 
-**任務說明**
+🎯 **任務說明**
 
-🎯 請實作一個函式 createUserIdIterator(start, end)，它會回傳一個 Iterator 物件，用來依序產生從 start 到 end 間的偶數用戶 ID（含兩端），每次 .next() 回傳一個 ID。
+請實作一個函式 createUserIdIterator(start, end)，它會回傳一個 Iterator 物件，用來依序產生從 start 到 end 間的偶數用戶 ID（含兩端），每次 .next() 回傳一個 ID。
 
 
 
