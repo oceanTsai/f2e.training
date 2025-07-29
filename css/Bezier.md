@@ -5,7 +5,7 @@
 請用自己的話解釋：
 1. 什麼是貝茲曲線？
 2. CSS 中的 cubic-bezier(x1, y1, x2, y2) 四個參數分別代表什麼？
-   ![alt text](image.png)
+   ![alt text](bezier.png)
 3. 請說明 ease、ease-in、ease-out、linear 分別對應哪些 cubic-bezier 值？
 
 
@@ -17,15 +17,24 @@
 
 
 ## 題目 3：基礎動畫實作
-請設定一顆按鈕，並為他添加懸停(hover)動畫，請使用 cubic-bezier 實現平滑的上升和陰影效果。
+請設定一顆按鈕，並為他添加懸停(hover)動畫，請使用 cubic-bezier 實現平滑的上升和陰影效果，可參考影片範例:
+![alt text](example.mov)
 
 
-## 題目 4：設計動畫
+## 題目 4：設計動畫 
+（進階練習，先以前三題為主，有時間再練習第四題即可）</br>
 用 CSS 創造一個「跳躍的球」動畫：
 1. 球要有重力感（下落時加速，上升時減速）
 2. 落地時要有輕微回彈的效果
 3. 使用至少 2 種不同的 cubic-bezier 曲線
-4. 讓動畫看起來盡可能符合物理定律
+4. 讓動畫看起來盡可能滑順、符合物理定律
+#### 提示，可參考的方向或屬性：
+- @keyframe 動畫的關鍵幀
+- transform: translateY() - 控制垂直位置
+- transform: scaleY() / scaleX() - 控制變形效果
+- animation-timing-function - 控制動畫速度曲線
+- animation-duration - 控制動畫時長
+
 
 ---
 
