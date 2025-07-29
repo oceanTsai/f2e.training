@@ -18,7 +18,7 @@
 
 ## 題目 3：基礎動畫實作
 請設定一顆按鈕，並為他添加懸停(hover)動畫，請使用 cubic-bezier 實現平滑的上升和陰影效果，可參考影片範例:
-![alt text](example.mov)
+   ![alt text](css-hover-example.gif)
 
 
 ## 題目 4：設計動畫 
